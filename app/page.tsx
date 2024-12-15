@@ -145,12 +145,6 @@ const HomePage = () => {
                 number: "02",
                 title: "Next Generation VFX",
                 description: "From high-definition nebulae to dynamic particle trails, we provide users with an immersive and believable visualization."
-              },
-              {
-                icon: <Atom className="w-6 h-6" />,
-                number: "03",
-                title: "Quantum Processing",
-                description: "Advanced algorithms and quantum-inspired processing enable complex real-time calculations and simulations."
               }
             ].map((feature, index) => (
               <div key={index} className="group relative">
